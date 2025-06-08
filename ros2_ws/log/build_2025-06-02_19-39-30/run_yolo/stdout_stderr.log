@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing run_yolo.egg-info/PKG-INFO
+writing dependency_links to run_yolo.egg-info/dependency_links.txt
+writing entry points to run_yolo.egg-info/entry_points.txt
+writing requirements to run_yolo.egg-info/requires.txt
+writing top-level names to run_yolo.egg-info/top_level.txt
+reading manifest file 'run_yolo.egg-info/SOURCES.txt'
+writing manifest file 'run_yolo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages/run-yolo.egg-link (link to .)
+Installing run_onnx script to /home/user/ros2_ws/install/run_yolo/lib/run_yolo
+Installing run_yolo script to /home/user/ros2_ws/install/run_yolo/lib/run_yolo
+
+Installed /home/user/ros2_ws/build/run_yolo
+running symlink_data

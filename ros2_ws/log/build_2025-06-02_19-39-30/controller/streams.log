@@ -1,0 +1,19 @@
+[4.537s] Invoking command in '/home/user/ros2_ws/build/controller': PYTHONPATH=/home/user/ros2_ws/build/controller/prefix_override:/home/user/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/controller/build --no-deps symlink_data
+[6.098s] running develop
+[6.099s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.099s]   warnings.warn(
+[6.898s] running egg_info
+[6.898s] writing controller.egg-info/PKG-INFO
+[6.902s] writing dependency_links to controller.egg-info/dependency_links.txt
+[6.902s] writing entry points to controller.egg-info/entry_points.txt
+[6.902s] writing requirements to controller.egg-info/requires.txt
+[6.902s] writing top-level names to controller.egg-info/top_level.txt
+[6.907s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[6.908s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[6.911s] running build_ext
+[6.911s] Creating /home/user/ros2_ws/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[6.912s] Installing pid_node script to /home/user/ros2_ws/install/controller/lib/controller
+[6.912s] 
+[6.912s] Installed /home/user/ros2_ws/build/controller
+[6.912s] running symlink_data
+[6.986s] Invoked command in '/home/user/ros2_ws/build/controller' returned '0': PYTHONPATH=/home/user/ros2_ws/build/controller/prefix_override:/home/user/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/controller/build --no-deps symlink_data

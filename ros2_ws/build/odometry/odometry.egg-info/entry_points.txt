@@ -1,0 +1,4 @@
+[console_scripts]
+ackermann_odometry = odometry.ackermann_odometry:main
+imu_odometry = odometry.imu_odometry:main
+

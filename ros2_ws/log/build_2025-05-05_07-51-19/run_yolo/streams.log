@@ -1,0 +1,24 @@
+[2.510s] Invoking command in '/home/user/ros2_ws/build/run_yolo': PYTHONPATH=/home/user/ros2_ws/build/run_yolo/prefix_override:/home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/run_yolo/build --no-deps symlink_data
+[3.616s] running develop
+[4.211s] running egg_info
+[4.211s] creating run_yolo.egg-info
+[4.211s] writing run_yolo.egg-info/PKG-INFO
+[4.213s] writing dependency_links to run_yolo.egg-info/dependency_links.txt
+[4.213s] writing entry points to run_yolo.egg-info/entry_points.txt
+[4.213s] writing requirements to run_yolo.egg-info/requires.txt
+[4.213s] writing top-level names to run_yolo.egg-info/top_level.txt
+[4.213s] writing manifest file 'run_yolo.egg-info/SOURCES.txt'
+[4.215s] reading manifest file 'run_yolo.egg-info/SOURCES.txt'
+[4.217s] writing manifest file 'run_yolo.egg-info/SOURCES.txt'
+[4.218s] running build_ext
+[4.219s] Creating /home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages/run-yolo.egg-link (link to .)
+[4.220s] Installing run_yolo = run_yolo.run_yolo:mainrun_onnx script to /home/user/ros2_ws/install/run_yolo/lib/run_yolo
+[4.220s] 
+[4.221s] Installed /home/user/ros2_ws/build/run_yolo
+[4.221s] running symlink_data
+[4.221s] creating /home/user/ros2_ws/install/run_yolo/share/ament_index
+[4.221s] creating /home/user/ros2_ws/install/run_yolo/share/ament_index/resource_index
+[4.222s] creating /home/user/ros2_ws/install/run_yolo/share/ament_index/resource_index/packages
+[4.222s] symbolically linking /home/user/ros2_ws/build/run_yolo/resource/run_yolo -> /home/user/ros2_ws/install/run_yolo/share/ament_index/resource_index/packages
+[4.222s] symbolically linking /home/user/ros2_ws/build/run_yolo/package.xml -> /home/user/ros2_ws/install/run_yolo/share/run_yolo
+[4.258s] Invoked command in '/home/user/ros2_ws/build/run_yolo' returned '0': PYTHONPATH=/home/user/ros2_ws/build/run_yolo/prefix_override:/home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/run_yolo/build --no-deps symlink_data

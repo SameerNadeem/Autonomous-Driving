@@ -1,0 +1,17 @@
+[3.174s] Invoking command in '/home/user/ros2_ws/build/run_yolo': PYTHONPATH=/home/user/ros2_ws/build/run_yolo/prefix_override:/home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/run_yolo/build --no-deps symlink_data
+[4.070s] running develop
+[4.515s] running egg_info
+[4.516s] writing run_yolo.egg-info/PKG-INFO
+[4.516s] writing dependency_links to run_yolo.egg-info/dependency_links.txt
+[4.516s] writing entry points to run_yolo.egg-info/entry_points.txt
+[4.516s] writing requirements to run_yolo.egg-info/requires.txt
+[4.516s] writing top-level names to run_yolo.egg-info/top_level.txt
+[4.518s] reading manifest file 'run_yolo.egg-info/SOURCES.txt'
+[4.519s] writing manifest file 'run_yolo.egg-info/SOURCES.txt'
+[4.521s] running build_ext
+[4.521s] Creating /home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages/run-yolo.egg-link (link to .)
+[4.522s] Installing run_yolo = run_yolo.run_yolo:mainrun_onnx script to /home/user/ros2_ws/install/run_yolo/lib/run_yolo
+[4.522s] 
+[4.522s] Installed /home/user/ros2_ws/build/run_yolo
+[4.522s] running symlink_data
+[4.551s] Invoked command in '/home/user/ros2_ws/build/run_yolo' returned '0': PYTHONPATH=/home/user/ros2_ws/build/run_yolo/prefix_override:/home/user/ros2_ws/install/run_yolo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/run_yolo/build --no-deps symlink_data

@@ -1,0 +1,3 @@
+[console_scripts]
+parking_node = smart_parking.parking_node:main
+

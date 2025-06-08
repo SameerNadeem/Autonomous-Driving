@@ -1,0 +1,17 @@
+[2.854s] Invoking command in '/home/user/ros2_ws/build/controller': PYTHONPATH=/home/user/ros2_ws/build/controller/prefix_override:/home/user/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/controller/build --no-deps symlink_data
+[3.827s] running develop
+[4.235s] running egg_info
+[4.235s] writing controller.egg-info/PKG-INFO
+[4.235s] writing dependency_links to controller.egg-info/dependency_links.txt
+[4.235s] writing entry points to controller.egg-info/entry_points.txt
+[4.236s] writing requirements to controller.egg-info/requires.txt
+[4.236s] writing top-level names to controller.egg-info/top_level.txt
+[4.239s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[4.240s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[4.242s] running build_ext
+[4.243s] Creating /home/user/ros2_ws/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[4.243s] Installing pid_node script to /home/user/ros2_ws/install/controller/lib/controller
+[4.244s] 
+[4.244s] Installed /home/user/ros2_ws/build/controller
+[4.244s] running symlink_data
+[4.279s] Invoked command in '/home/user/ros2_ws/build/controller' returned '0': PYTHONPATH=/home/user/ros2_ws/build/controller/prefix_override:/home/user/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/controller/build --no-deps symlink_data

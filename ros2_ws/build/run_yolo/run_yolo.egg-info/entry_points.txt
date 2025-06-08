@@ -1,0 +1,4 @@
+[console_scripts]
+run_onnx = run_yolo.run_onnx:main
+run_yolo = run_yolo.run_yolo:main
+

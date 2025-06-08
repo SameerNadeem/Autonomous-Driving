@@ -1,0 +1,3 @@
+[console_scripts]
+pid_node = controller.pid_node:main
+

@@ -1,0 +1,25 @@
+[2.617s] Invoking command in '/home/user/ros2_ws/build/odometry': PYTHONPATH=/home/user/ros2_ws/build/odometry/prefix_override:/home/user/ros2_ws/install/odometry/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/odometry/build --no-deps symlink_data
+[3.507s] running develop
+[3.996s] running egg_info
+[3.996s] creating odometry.egg-info
+[3.997s] writing odometry.egg-info/PKG-INFO
+[3.997s] writing dependency_links to odometry.egg-info/dependency_links.txt
+[3.998s] writing entry points to odometry.egg-info/entry_points.txt
+[3.998s] writing requirements to odometry.egg-info/requires.txt
+[3.998s] writing top-level names to odometry.egg-info/top_level.txt
+[3.998s] writing manifest file 'odometry.egg-info/SOURCES.txt'
+[3.998s] reading manifest file 'odometry.egg-info/SOURCES.txt'
+[3.998s] writing manifest file 'odometry.egg-info/SOURCES.txt'
+[4.003s] running build_ext
+[4.003s] Creating /home/user/ros2_ws/install/odometry/lib/python3.10/site-packages/odometry.egg-link (link to .)
+[4.004s] Installing ackermann_odometry script to /home/user/ros2_ws/install/odometry/lib/odometry
+[4.005s] Installing imu_odometry script to /home/user/ros2_ws/install/odometry/lib/odometry
+[4.005s] 
+[4.005s] Installed /home/user/ros2_ws/build/odometry
+[4.005s] running symlink_data
+[4.006s] creating /home/user/ros2_ws/install/odometry/share/ament_index
+[4.006s] creating /home/user/ros2_ws/install/odometry/share/ament_index/resource_index
+[4.006s] creating /home/user/ros2_ws/install/odometry/share/ament_index/resource_index/packages
+[4.007s] symbolically linking /home/user/ros2_ws/build/odometry/resource/odometry -> /home/user/ros2_ws/install/odometry/share/ament_index/resource_index/packages
+[4.007s] symbolically linking /home/user/ros2_ws/build/odometry/package.xml -> /home/user/ros2_ws/install/odometry/share/odometry
+[4.099s] Invoked command in '/home/user/ros2_ws/build/odometry' returned '0': PYTHONPATH=/home/user/ros2_ws/build/odometry/prefix_override:/home/user/ros2_ws/install/odometry/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/odometry/build --no-deps symlink_data

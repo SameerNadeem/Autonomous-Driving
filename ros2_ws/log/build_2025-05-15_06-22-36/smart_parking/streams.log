@@ -1,0 +1,24 @@
+[1.150s] Invoking command in '/home/user/ros2_ws/build/smart_parking': PYTHONPATH=/home/user/ros2_ws/build/smart_parking/prefix_override:/home/user/ros2_ws/install/smart_parking/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/smart_parking/build --no-deps symlink_data
+[1.502s] running develop
+[1.723s] running egg_info
+[1.723s] creating smart_parking.egg-info
+[1.723s] writing smart_parking.egg-info/PKG-INFO
+[1.723s] writing dependency_links to smart_parking.egg-info/dependency_links.txt
+[1.723s] writing entry points to smart_parking.egg-info/entry_points.txt
+[1.723s] writing requirements to smart_parking.egg-info/requires.txt
+[1.723s] writing top-level names to smart_parking.egg-info/top_level.txt
+[1.723s] writing manifest file 'smart_parking.egg-info/SOURCES.txt'
+[1.725s] reading manifest file 'smart_parking.egg-info/SOURCES.txt'
+[1.725s] writing manifest file 'smart_parking.egg-info/SOURCES.txt'
+[1.727s] running build_ext
+[1.727s] Creating /home/user/ros2_ws/install/smart_parking/lib/python3.10/site-packages/smart-parking.egg-link (link to .)
+[1.728s] Installing parking_node script to /home/user/ros2_ws/install/smart_parking/lib/smart_parking
+[1.728s] 
+[1.728s] Installed /home/user/ros2_ws/build/smart_parking
+[1.729s] running symlink_data
+[1.729s] creating /home/user/ros2_ws/install/smart_parking/share/ament_index
+[1.729s] creating /home/user/ros2_ws/install/smart_parking/share/ament_index/resource_index
+[1.729s] creating /home/user/ros2_ws/install/smart_parking/share/ament_index/resource_index/packages
+[1.729s] symbolically linking /home/user/ros2_ws/build/smart_parking/resource/smart_parking -> /home/user/ros2_ws/install/smart_parking/share/ament_index/resource_index/packages
+[1.729s] symbolically linking /home/user/ros2_ws/build/smart_parking/package.xml -> /home/user/ros2_ws/install/smart_parking/share/smart_parking
+[1.762s] Invoked command in '/home/user/ros2_ws/build/smart_parking' returned '0': PYTHONPATH=/home/user/ros2_ws/build/smart_parking/prefix_override:/home/user/ros2_ws/install/smart_parking/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/smart_parking/build --no-deps symlink_data

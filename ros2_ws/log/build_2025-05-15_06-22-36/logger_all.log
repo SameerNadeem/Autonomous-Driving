@@ -1,0 +1,191 @@
+[0.147s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'smart_parking'][0m
+[0.147s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['smart_parking'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe71ce34fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe71ce34160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe71ce34160>>, mixin_verb=('build',))[0m
+[0.365s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.365s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.365s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.365s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.365s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.365s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.366s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/user/ros2_ws'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ament_cargo']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ament_cargo'
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.366s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cargo', 'cmake', 'python']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cargo'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ament_cargo']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ament_cargo'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cargo', 'cmake', 'python']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cargo'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ignore'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ignore_ament_install'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['colcon_pkg']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'colcon_pkg'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['colcon_meta']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'colcon_meta'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['ament_cargo']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ament_cargo'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extensions ['ros']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/controller) by extension 'ros'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/controller' with type 'ros.ament_python' and name 'controller'[0m
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ignore'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ignore_ament_install'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['colcon_pkg']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'colcon_pkg'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['colcon_meta']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'colcon_meta'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['ament_cargo']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ament_cargo'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['ros']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/line_follower' with type 'ros.ament_python' and name 'line_follower'[0m
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extension 'ignore'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extension 'colcon_meta'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extensions ['ament_cargo']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extension 'ament_cargo'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extensions ['ros']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry) by extension 'ros'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/odometry' with type 'ros.ament_python' and name 'odometry'[0m
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extension 'ignore_ament_install'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extensions ['colcon_pkg']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extension 'colcon_pkg'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extensions ['colcon_meta']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extension 'colcon_meta'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extensions ['ament_cargo']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extension 'ament_cargo'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extensions ['ros']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/run_yolo) by extension 'ros'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/run_yolo' with type 'ros.ament_python' and name 'run_yolo'[0m
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extension 'ignore'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extension 'ignore_ament_install'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extensions ['colcon_pkg']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extension 'colcon_pkg'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extensions ['colcon_meta']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extension 'colcon_meta'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extensions ['ament_cargo']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extension 'ament_cargo'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extensions ['ros']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/smart_parking) by extension 'ros'
+[0.404s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/smart_parking' with type 'ros.ament_python' and name 'smart_parking'[0m
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.435s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'controller' in 'src/controller'
+[0.435s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'line_follower' in 'src/line_follower'
+[0.435s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'odometry' in 'src/odometry'
+[0.435s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'run_yolo' in 'src/run_yolo'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'lookup_in_workspace' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cargo_args' from command line to 'None'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'clean_build' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cmake_args' from command line to 'None'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cmake_target' from command line to 'None'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'smart_parking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'smart_parking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/smart_parking', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/smart_parking', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/smart_parking', 'symlink_install': True, 'test_result_base': None}[0m
+[0.436s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.438s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.438s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/user/ros2_ws/src/smart_parking' with build type 'ament_python'
+[0.438s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('smart_parking', 'ament_prefix_path')
+[0.451s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/user/ros2_ws/install/smart_parking/share/smart_parking/hook/ament_prefix_path.ps1'
+[0.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/user/ros2_ws/install/smart_parking/share/smart_parking/hook/ament_prefix_path.dsv'
+[0.454s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/user/ros2_ws/install/smart_parking/share/smart_parking/hook/ament_prefix_path.sh'
+[0.455s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.847s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/user/ros2_ws/src/smart_parking'
+[0.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.589s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/user/ros2_ws/build/smart_parking': PYTHONPATH=/home/user/ros2_ws/build/smart_parking/prefix_override:/home/user/ros2_ws/install/smart_parking/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/smart_parking/build --no-deps symlink_data[0m
+[2.200s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('smart_parking', 'pythonpath_develop')
+[2.200s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/user/ros2_ws/build/smart_parking/share/smart_parking/hook/pythonpath_develop.ps1'
+[2.201s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/user/ros2_ws/build/smart_parking' returned '0': PYTHONPATH=/home/user/ros2_ws/build/smart_parking/prefix_override:/home/user/ros2_ws/install/smart_parking/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/smart_parking/build --no-deps symlink_data[0m
+[2.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/user/ros2_ws/build/smart_parking/share/smart_parking/hook/pythonpath_develop.dsv'
+[2.202s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/user/ros2_ws/build/smart_parking/share/smart_parking/hook/pythonpath_develop.sh'
+[2.215s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking' for CMake module files
+[2.215s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking' for CMake config files
+[2.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking/lib'
+[2.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking/bin'
+[2.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking/lib/pkgconfig/smart_parking.pc'
+[2.217s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking/lib/python3.10/site-packages'
+[2.217s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('smart_parking', 'pythonpath')
+[2.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/user/ros2_ws/install/smart_parking/share/smart_parking/hook/pythonpath.ps1'
+[2.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/user/ros2_ws/install/smart_parking/share/smart_parking/hook/pythonpath.dsv'
+[2.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/user/ros2_ws/install/smart_parking/share/smart_parking/hook/pythonpath.sh'
+[2.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/user/ros2_ws/install/smart_parking/bin'
+[2.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(smart_parking)
+[2.218s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/user/ros2_ws/install/smart_parking/share/smart_parking/package.ps1'
+[2.220s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/user/ros2_ws/install/smart_parking/share/smart_parking/package.dsv'
+[2.221s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/user/ros2_ws/install/smart_parking/share/smart_parking/package.sh'
+[2.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/user/ros2_ws/install/smart_parking/share/smart_parking/package.bash'
+[2.223s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/user/ros2_ws/install/smart_parking/share/smart_parking/package.zsh'
+[2.226s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/user/ros2_ws/install/smart_parking/share/colcon-core/packages/smart_parking)
+[2.226s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.227s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.227s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.227s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.248s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.248s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.248s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.248s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.251s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message[0m
+[2.251s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.252s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/user/ros2_ws/install/local_setup.ps1'
+[2.254s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_ps1.py'
+[2.255s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/user/ros2_ws/install/setup.ps1'
+[2.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/user/ros2_ws/install/local_setup.sh'
+[2.260s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_sh.py'
+[2.260s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/user/ros2_ws/install/setup.sh'
+[2.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/user/ros2_ws/install/local_setup.bash'
+[2.264s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/user/ros2_ws/install/setup.bash'
+[2.267s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/user/ros2_ws/install/local_setup.zsh'
+[2.268s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/user/ros2_ws/install/setup.zsh'

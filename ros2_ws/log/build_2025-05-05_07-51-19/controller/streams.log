@@ -1,0 +1,28 @@
+[2.551s] Invoking command in '/home/user/ros2_ws/build/controller': PYTHONPATH=/home/user/ros2_ws/build/controller/prefix_override:/home/user/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/controller/build --no-deps symlink_data
+[3.524s] running develop
+[4.160s] running egg_info
+[4.160s] creating controller.egg-info
+[4.160s] writing controller.egg-info/PKG-INFO
+[4.160s] writing dependency_links to controller.egg-info/dependency_links.txt
+[4.161s] writing entry points to controller.egg-info/entry_points.txt
+[4.161s] writing requirements to controller.egg-info/requires.txt
+[4.161s] writing top-level names to controller.egg-info/top_level.txt
+[4.163s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[4.163s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[4.164s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[4.167s] running build_ext
+[4.168s] Creating /home/user/ros2_ws/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[4.169s] Installing pid_node script to /home/user/ros2_ws/install/controller/lib/controller
+[4.169s] 
+[4.169s] Installed /home/user/ros2_ws/build/controller
+[4.169s] running symlink_data
+[4.169s] creating /home/user/ros2_ws/install/controller/share/ament_index
+[4.170s] creating /home/user/ros2_ws/install/controller/share/ament_index/resource_index
+[4.170s] creating /home/user/ros2_ws/install/controller/share/ament_index/resource_index/packages
+[4.170s] symbolically linking /home/user/ros2_ws/build/controller/resource/controller -> /home/user/ros2_ws/install/controller/share/ament_index/resource_index/packages
+[4.170s] symbolically linking /home/user/ros2_ws/build/controller/package.xml -> /home/user/ros2_ws/install/controller/share/controller
+[4.170s] creating /home/user/ros2_ws/install/controller/share/controller/launch
+[4.170s] symbolically linking /home/user/ros2_ws/build/controller/launch/pid_control_launch.py -> /home/user/ros2_ws/install/controller/share/controller/launch
+[4.170s] creating /home/user/ros2_ws/install/controller/share/controller/config
+[4.170s] symbolically linking /home/user/ros2_ws/build/controller/config/pid_gains.yaml -> /home/user/ros2_ws/install/controller/share/controller/config
+[4.248s] Invoked command in '/home/user/ros2_ws/build/controller' returned '0': PYTHONPATH=/home/user/ros2_ws/build/controller/prefix_override:/home/user/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/controller/build --no-deps symlink_data
